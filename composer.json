@@ -1,0 +1,28 @@
+{
+    "name": "mano/bank-oop",
+    "description": "Objektinis bankas",
+    "type": "no",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bank\\Router\\": "app/",
+            "Acc\\User\\": "app/",
+            "Acc\\Admin\\": "app/",
+            "Json\\Db\\": "app/",
+            "App\\DB\\": "app/",
+            "Bank\\Maria\\": "app/",
+            "Bank\\Router\\Controllers\\": "app/controllers/",
+            "Bank\\Home\\Controllers\\": "app/controllers/",
+            "Bank\\Login\\Controllers\\": "app/controllers/",
+            "Bank\\Sign\\": "app/controllers/",
+            "Bank\\Darbuotojai\\Login\\": "app/login/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Juste Si",
+            "email": "juste@juste.com"
+        }
+    ],
+    "require": {}
+}
