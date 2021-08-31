@@ -17,6 +17,10 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+body {
+    background: #f1f1f1;
+    
+}
 
 .exit {
     color: lightgrey;
@@ -119,6 +123,7 @@ input[type=text] {
 }
 
 .inner-login-wrapper {
+    margin-top: 3% ;
     background: lightgrey;
     box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19) !important;
     padding: 3% !important;
@@ -128,6 +133,12 @@ input[type=text] {
 .table td, 
 .table th {
     border: none !important;
+}
+
+.alert {
+   text-align: center;
+   font-size: 1.1rem;
+   font-weight: 600;
 }
 </style>
 
@@ -173,7 +184,7 @@ input[type=text] {
     <div class="container-fluid">
         <div class="container">
             <div class="container msg-container">
-                <div class="w-75 msg mx-auto ">
+                <div class="w-100 msg mx-auto ">
                     <?php showMessages();?>
                 </div>
             </div>

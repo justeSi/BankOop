@@ -6,7 +6,7 @@
 
         <table class="table col col-lg-12 ">
             <div>
-                <h1><b>Sąskaitos apžvalga / operacijos / trynimas</b></h1>
+                <h1 class = "mb-4"><b>Sąskaitos</b></h1>
             </div>
 
             

@@ -21,8 +21,12 @@ class SignController
  */
     public function create()
     {   
-        if(!empty($_POST)) {
-
+        if(empty($_POST['name']||
+        $_POST['email']||
+        $_POST['password']||
+        $_POST['pass'] )) {
+            App::addMessage('danger', 'Įveskite informaciją');}
+        else {
             $name = strtolower($_POST['name'] ?? 0);
             $email = strtolower($_POST['email'] ?? 0);
             $password = md5($_POST['password'] ?? 0);
@@ -38,6 +42,7 @@ class SignController
                 App::redirect('login');
             }
         }
+        
         // redirektina atgal į save
         App::redirect('signin');
     }   
