@@ -39,9 +39,9 @@ body {
 
 h1,
 h2 {
-    padding-top: 1.5%;
+    padding-top: 0.5%;
     text-align: center;
-    padding-bottom: 1% !important;
+    padding-bottom: 0.5% !important;
 
 }
 
